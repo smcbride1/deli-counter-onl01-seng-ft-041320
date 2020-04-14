@@ -4,7 +4,9 @@ def line(katz_deli)
     formatted_string = ""
     katz_deli.each_with_index do | name, index |
       formatted_string = formatted_string + "#{index}. #{name}"
-    "The line is currently: "
+    end
+    formatted_string = formatted_string[0...-1]
+    "The line is currently: #{formatted_string}"
   else
 
   "The line is currently:"
