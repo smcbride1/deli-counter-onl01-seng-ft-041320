@@ -10,7 +10,7 @@ def line(katz_deli)
     formatted_string = formatted_string[0...-1]
     "The line is currently: #{formatted_string}"
   else
-  "The line is currently empty."
+  puts "The line is currently empty."
   end
 end
 
