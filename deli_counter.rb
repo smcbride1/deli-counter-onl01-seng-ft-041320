@@ -11,7 +11,7 @@ def line(katz_deli)
     "The line is currently: #{formatted_string}"
   else
   "The line is currently empty."
-end
+  end
 end
 
 def take_a_number(katz_deli, name)
