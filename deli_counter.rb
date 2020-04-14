@@ -12,6 +12,7 @@ def line(katz_deli)
   else
   "The line is currently empty."
 end
+end
 
 def take_a_number(katz_deli, name)
   katz_deli.push(name)
